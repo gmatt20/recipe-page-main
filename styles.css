@@ -1,6 +1,4 @@
 *{
-    margin: 0;
-    padding: 0;
 }
 main{
     display: flex;
@@ -8,12 +6,21 @@ main{
     justify-content: center;
     background-color: hsl(30, 54%, 90%);
 }
-h1{
+h1, h2{
     font-family: young serif, sans-serif;
 }
-h3, *{
+h2{
+    color: hsl(14, 45%, 36%);
+}
+h3{
+    color: hsl(332, 51%, 32%);
+}
+*{
     font-family: outfit, sans-serif;
     color: hsl(24, 5%, 18%);
+}
+p{
+    font-size: 16px;
 }
 .container{
     padding: 10px;
@@ -28,4 +35,15 @@ h3, *{
 }
 img{
     height: 300px;
+}
+.purple-container{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    line-height: 2;
+}
+span{
+    margin-left: 30px;
+}
+.separate{
+    margin-left: 300px;
 }
